@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+main{
+    background-image: url('./images/bg.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.logo-menu{
+    width: 50%;
+}
+
+.itens-menu{
+    width: 50%;
+    text-align: right;
+}
+
+.itens-menu a{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.itens-menu a:hover{
+    border-bottom: 2px solid #FFDD33;
+}
+
+a.contact-btn{
+    background-color: #0f3fd3;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.itens-menu a.contact-btn:hover{
+    border-radius: 10px;
+    border-bottom: none;
+}
+
+.mockup{display: block;width: 100%; color: #fff;text-align: center; padding-top: 100px;}
+
+.mockup h1{
+    font-size: 50px;
+}
+
+.mockup img{
+    max-width: 100%;
+}
+
+.marcas{
+    padding: 6px 0;
+}
+
+section.marcas img{
+    width: 20%;
+}
+
+section.porque-nos{
+    padding: 40px 0;
+    background-color: #FBFCFE;
+}
+
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+section.porque-nos > .center > p{
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+}
+
+section.porque-nos > .center{
+    max-width: 1280px;
+}
+
+.diferenciais{display:flex;margin-top: 50px;}
+
+.box-diferenciais{
+    box-shadow: 0 20px 40px #2426721c;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.box-diferenciais h3{
+    font-size: 28px;
+    margin: 20px 0;
+    color: #000;
+}
+
+.box-diferenciais p{
+    font-size: 13px;
+    color: #7E92AC;
+    margin-bottom: 20px;
+}
+
+section.cta{
+    background-image: url('./images/BANNER-MEIO.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    min-height: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: 100;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+section.cta h2{
+    font-size: 40px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 7px;
+    font-weight: 900;
+    text-decoration: none;
+    background: #FFDD33;
+    color: #0F3FD3;
+    font-size: 14px;
+}
+
+section.beneficios{
+    padding: 50px 0;
+}
+
+.lista-beneficios{
+    width: 50%;
+    vertical-align: top;
+}
+
+.lista-beneficios h1{
+    color: #000;
+    font-size: 50px;
+}
+
+.lista-beneficios p{
+    vertical-align: middle;
+    font-size: 16px;
+    color: #7E92AC;
+}
+
+.lista-beneficios img{
+    vertical-align: middle;
+    width: 70px;
+    display: inline-block;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+section.beneficios a{
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 7px;
+    font-weight: 900;
+    text-decoration: none;
+    background: #0F3FD3;
+    color: #fff;
+    font-size: 14px;
+}
+
+.img-beneficios{
+    width: 50%;
+}
+
+.img-beneficios img{max-width: 100%;}
+
+section.depoimentos{
+    background-color: #FBFCFE;
+    padding: 40px 0;
+}
+
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider {
+    overflow:hidden;
+    padding:40px 0;  
+}
+
+.slider-single{
+    float: left;
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.slider-single p{
+    color: #7E92AC;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.slick-slide{
+    margin-left: 27px;
+}
+
+.slick-list{
+    margin-left: -27px;
+}
+
+/* Slick Classes */
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #D2D8EB;
+	border-width: 0;
+	background: #D2D8EB;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #255AFF;
+	color: #255AFF;
+}
+
+.slick-slide:focus { outline: none; }
+
+/* Fim do slick slider */
+
+section.contato{
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.contato h1{
+    font-size: 50px;
+}
+
+section.contato form{
+    width: 100%;
+}
+
+.contato input[type="text"],
+.contato input[type="email"],
+.contato textarea{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    padding-left: 10px;
+}
+
+.contato textarea{
+    height: 120px;
+    padding: 10px;
+    resize: none;
+}
+
+.contato input[type="submit"]{
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 900;
+    text-decoration: none;
+    background: #255AFF;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    border: 0;
+}
+
+footer{
+    background-color: #255AFF;
+    color: #fff;
+}
+
+.text-footer{
+    width: 50%;
+    padding: 26px 0;
+    vertical-align: middle;
+}
+
+footer .itens-menu{
+    padding: 18px 0;
+}
+
+.itens-menu-mobile{
+    display: none;
+    width: 50%;
+    text-align: right;
+}
+
+.itens-menu-mobile i{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    position: relative; 
+    top: 12px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px){
+    .itens-menu-mobile{
+        display: block;
+    }
+    
+    .menu-mobile{
+        opacity: 0;
+        transition: 2s;
+        position: absolute;
+        left: 0;
+        top: 65px;
+        background-color: #fff;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .show{
+        opacity: 1;
+    }
+
+    .hide{
+        opacity: 0;
+    }
+
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin: 8px 0;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        border-bottom: 1px solid #000;
+        padding: 8px 0;
+    }
+
+    main .itens-menu{
+        display: none;
+    }
+
+    footer .itens-menu{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .itens-menu a{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .text-footer{
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+    }
+ 
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+    
+    .box-diferenciais{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    section.marcas > .center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    section.marcas img{
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .lista-beneficios,
+    .img-beneficios{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
